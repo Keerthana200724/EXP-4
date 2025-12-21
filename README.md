@@ -34,19 +34,34 @@ PROCEDURE:
 3.   Connect the capacitor filter and observe the waveforms. Note down and calculate ripple factor, rectifier efficiency and %regulation using the expressions. Repeat for different capacitor values.
 4.   Repeat the above steps for full wave and bridge rectifiers.
 
-CIRCUIT DIAGRAMS
+CIRCUIT DIAGRAM:
+<img width="845" height="601" alt="image" src="https://github.com/user-attachments/assets/c703ef8b-ebdf-4a19-ab43-03532b13b10e" />
 
-Half wave rectifier with filter:
-
-Bridge rectifier with filter:
-
-TABULAR COLUMN
-Rectifier without filter
-TABULAR COLUMN
-Rectifier with filter
 
 WAVEFORM:
+<img width="1014" height="526" alt="image" src="https://github.com/user-attachments/assets/b6dc4b2b-dbaa-47cd-8e6e-0957294a2d1e" />
 
+
+TABULAR COLUMN:
+### Half Wave Rectifier
+| **Input Voltage** |              | **Output Voltage (Without Filter)** |              | **Output Voltage (With Filter)** |              |
+|-------------------|--------------|-------------------------------------|--------------|----------------------------------|--------------|
+| **Vm (V)**        | **t (ms)**   | **Vm (V)**                          | **t (ms)**   | **Vm (V)**                       | **t (ms)**   |
+| 100               | 20           | 100                                 | 10           | 100 V, 5 V                       | 5 ms, 25 ms  |
+
+CIRCUIT DIAGRAM:
+<img width="842" height="679" alt="image" src="https://github.com/user-attachments/assets/9463ba59-6233-48d1-b64c-25d9a48a410d" />
+
+WAVEFORM:
+<img width="1028" height="562" alt="image" src="https://github.com/user-attachments/assets/da5b5354-db12-4aa4-82fe-c0d8ee1c24b9" />
+
+TABULAR COLUMN:
+### Full Wave Rectifier
+
+| **Input Voltage** |              | **Output Voltage (Without Filter)** |              | **Output Voltage (With Filter)** |              |
+|-------------------|--------------|-------------------------------------|--------------|----------------------------------|--------------|
+| **Vm (V)**        | **t (ms)**   | **Vm (V)**                          | **t (ms)**   | **Vm (V)**                       | **t (ms)**   |
+| 50                | 20           | 50                                  | 5            | 50 V, 46 V                       | 5 ms, 14 ms  |
 
 RESULT:
 
